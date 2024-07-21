@@ -254,6 +254,9 @@ article.active {
   background: var(--text-gradient-yellow);
   border-radius: 3px;
 }
+.rounded-corners {
+  border-radius: 20px;  /* Adjust the px value to increase or decrease the roundness */
+}
 
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
